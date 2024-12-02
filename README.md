@@ -1,58 +1,122 @@
-<h1 align="center"> Hi there 👋 </h1>
-<p align="center">i’m mIcHy AmRaNe.
-I’m an IT student based in Paris
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawaii Neko Girl Profile</title>
+    <style>
+        body {
+            background-color: #fdf3f8;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
 
-<div align="center">
-  <a href="https://twitter.com/michyamrane" target="_blank">
-    <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=%E2%B5%A3%20mIcHy%20AmRaNe%20&style=social&url=https%3A%2F%2Ftwitter.com%2Fmichyamrane%3Flang%3Den">
-  </a>
-  <a href="https://www.youtube.com/channel/UCJ6BqQI-EEJUWEl7SdzeD_Q" target="_blank">
-    <img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCJ6BqQI-EEJUWEl7SdzeD_Q?label=%20mIcHy%20AmRaNe%20%E2%B5%A3%20-%20YouTube&style=social">
-  </a>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #ff82a9;
+        }
+
+        .neko-girl {
+            background: linear-gradient(135deg, #ffd1dc, #e0e0e0);
+            border-radius: 10px;
+            display: inline-block;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .neko-girl img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .neko-ears {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+
+        .ear {
+            width: 30px;
+            height: 40px;
+            background-color: #ff80a3;
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+
+        .ear.left {
+            transform: rotate(-30deg);
+        }
+
+        .ear.right {
+            transform: rotate(30deg);
+        }
+
+        .heart {
+            font-size: 20px;
+            color: #ff82a9;
+        }
+
+        .neko-girl-name {
+            font-size: 1.5em;
+            color: #ff5080;
+            margin-top: 10px;
+        }
+
+        .neko-girl-description {
+            font-size: 1.1em;
+            color: #b4a6a6;
+            margin-top: 10px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            background-color: #ff82a9;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .buttons a:hover {
+            background-color: #ff5080;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Meet the Kawaii Neko Girl!</h1>
+    <div class="neko-girl">
+        <div class="neko-ears">
+            <div class="ear left"></div>
+            <div class="ear right"></div>
+        </div>
+        <img src="https://www.example.com/cute-kawaii-image.jpg" alt="Kawaii Neko Girl">
+        <div class="neko-girl-name">mIcHy AmRaNe</div>
+        <div class="neko-girl-description">IT student based in Paris, Cat lover, and everything cute!</div>
+
+        <div class="buttons">
+            <a href="https://twitter.com/michyamrane" target="_blank">Follow on Twitter</a>
+            <a href="https://www.youtube.com/channel/UCJ6BqQI-EEJUWEl7SdzeD_Q" target="_blank">Watch on YouTube</a>
+        </div>
+    </div>
+
+    <h2>💖 Kawaii Stats 💖</h2>
+    <p><span class="heart">💖</span> Neko Girl Stats Coming Soon!</p>
 </div>
 
-<h1 align="center"> 📊 Stats: </h1>
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=michyamrane&show_icons=true&bg_color=0d1117&text_color=FFF&border_color=444" height="165">
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=michyamrane&layout=compact&bg_color=0d1117&text_color=FFF&border_color=444"  height="165">
-  </a>
-</p>
-
-<h1 align="center"> 🔥 Contributions: </h1>
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="http://github-readme-streak-stats.herokuapp.com?user=michyamrane&theme=radical">
-  </a>
-  <br>
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=michyamrane&theme=react-dark&hide_border=true">
-  </a>
-</p>
-
-<h1 align="center"> 📜 Certificates: </h1>
-<p align="center">
-  <a href="https://www.sololearn.com/certificates/course/en/21983356/1157/landscape/png" target="_blank">
-    <img src="https://img.shields.io/badge/certificate-Python%20for%20Beginners-blue?style=for-the-badge&amp;logo=Python" alt="CertificatePython">
-  </a>
-  <a href="https://www.sololearn.com/certificates/course/en/21983356/1073/landscape/png" target="_blank">
-    <img src="https://img.shields.io/badge/certificate-Python%20Core-blue?style=for-the-badge&amp;logo=Python" alt="CertificatePython">
-  </a>
-</p>
-
-<h1 align="center"> ☕ Donation: </h1>
-<p align="center">
-  <a href="https://www.buymeacoffee.com/michyamrane" target="_blank">
-    <img src="https://img.shields.io/badge/Donate-michyamrane-yellow?style=for-the-badge&amp;logo=BuyMeACoffee" alt="Donate">
-  </a>
-</p>
-
-<h2 align="center"> 🧮 Counter: </h2>
-<p align="center">
-  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmichyamrane%2Fmichyamrane&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=true"/>
-  </a>
-</p>
+</body>
+</html>
