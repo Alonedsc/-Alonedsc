@@ -1,122 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kawaii Neko Girl Profile</title>
-    <style>
-        body {
-            background-color: #fdf3f8;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            padding: 0;
-            margin: 0;
-        }
+<h1 align="center" style="font-family: 'Poppins', sans-serif; font-size: 60px; color: #FF99CC; text-shadow: 3px 3px 10px #FFD3E0; animation: bounce 2s infinite;">🌸 My Github Profile 🌸</h1>
+<p align="center" style="font-family: 'Poppins', sans-serif; font-size: 25px; color: #FF66B2; text-shadow: 2px 2px 5px #FFD3E0; animation: fadeIn 3s;">Askip X Alone ✨</p>
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1, h2 {
-            color: #ff82a9;
-        }
-
-        .neko-girl {
-            background: linear-gradient(135deg, #ffd1dc, #e0e0e0);
-            border-radius: 10px;
-            display: inline-block;
-            padding: 20px;
-            width: 300px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-
-        .neko-girl img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .neko-ears {
-            position: absolute;
-            top: -25px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            justify-content: center;
-        }
-
-        .ear {
-            width: 30px;
-            height: 40px;
-            background-color: #ff80a3;
-            border-radius: 50%;
-            margin: 0 5px;
-        }
-
-        .ear.left {
-            transform: rotate(-30deg);
-        }
-
-        .ear.right {
-            transform: rotate(30deg);
-        }
-
-        .heart {
-            font-size: 20px;
-            color: #ff82a9;
-        }
-
-        .neko-girl-name {
-            font-size: 1.5em;
-            color: #ff5080;
-            margin-top: 10px;
-        }
-
-        .neko-girl-description {
-            font-size: 1.1em;
-            color: #b4a6a6;
-            margin-top: 10px;
-        }
-
-        .buttons a {
-            text-decoration: none;
-            background-color: #ff82a9;
-            padding: 10px 20px;
-            border-radius: 20px;
-            color: white;
-            font-weight: bold;
-            margin: 10px;
-        }
-
-        .buttons a:hover {
-            background-color: #ff5080;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <h1>Meet the Kawaii Neko Girl!</h1>
-    <div class="neko-girl">
-        <div class="neko-ears">
-            <div class="ear left"></div>
-            <div class="ear right"></div>
-        </div>
-        <img src="https://www.example.com/cute-kawaii-image.jpg" alt="Kawaii Neko Girl">
-        <div class="neko-girl-name">mIcHy AmRaNe</div>
-        <div class="neko-girl-description">IT student based in Paris, Cat lover, and everything cute!</div>
-
-        <div class="buttons">
-            <a href="https://twitter.com/michyamrane" target="_blank">Follow on Twitter</a>
-            <a href="https://www.youtube.com/channel/UCJ6BqQI-EEJUWEl7SdzeD_Q" target="_blank">Watch on YouTube</a>
-        </div>
-    </div>
-
-    <h2>💖 Kawaii Stats 💖</h2>
-    <p><span class="heart">💖</span> Neko Girl Stats Coming Soon!</p>
+<div align="center">
+  <a href="https://discord.gg/anpro" target="_blank">
+    <img src="https://img.shields.io/badge/Join%20My%20Discord-%23FF66B2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" width="250" style="border-radius: 20px; background-color: #FF80C3; padding: 10px; animation: pulse 1.5s infinite;">
+  </a>
 </div>
 
-</body>
-</html>
+<h2 align="center" style="font-family: 'Poppins', sans-serif; font-size: 35px; color: #FF66B2; text-shadow: 3px 3px 8px #FFD3E0; animation: fadeIn 3s 1s;">Too Cute.</h2>
+<p align="center" style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #FF66B2; text-shadow: 2px 2px 5px #FFD3E0; animation: slideInLeft 2s;">
+    Meow!
+</p>
+
+<h2 align="center" style="font-family: 'Poppins', sans-serif; font-size: 35px; color: #FF66B2; text-shadow: 3px 3px 8px #FFD3E0; animation: fadeIn 3s 2s;">Talk too much 🤭</h2>
+<p align="center" style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #FF66B2; text-shadow: 2px 2px 5px #FFD3E0; animation: slideInUp 2s;">
+    Am I a person who talks a little too much?
+</p>
+
+<style>
+  /* Animation styles */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
